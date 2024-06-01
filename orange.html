@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="orange.css">
+        <link href="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/css/boosted.min.css" rel="stylesheet" integrity="sha384-laZ3JUZ5Ln2YqhfBvadDpNyBo7w5qmWaRnnXuRwNhJeTEFuSdGbzl4ZGHAEnTozR" crossorigin="anonymous">
+        <!-- Copyright © 2014 Monotype Imaging Inc. All rights reserved -->
+        <link href="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/css/orange-helvetica.min.css" rel="stylesheet" integrity="sha384-A0Qk1uKfS1i83/YuU13i2nx5pk79PkIfNFOVzTcjCMPGKIDj9Lqx9lJmV7cdBVQZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/js/boosted.min.js" integrity="sha384-TfjOlWccrKKSEc/hJqxs6Tofoh4+tlm//VJYb92Ow7aPNtgfaKuuLsnFqObi3xmp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.2.0/dist/focus-visible.min.js" integrity="sha384-xRa5B8rCDfdg0npZcxAh+RXswrbFk3g6dlHVeABeluN8EIwdyljz/LqJgc2R3KNA" crossorigin="anonymous"></script>
+        <link rel="preload" href="https://datascience.orangecodingacademy.com/assets/boosted/dist/fonts/HelvNeue55_W1G.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="preload" href="https://datascience.orangecodingacademy.com/assets/boosted/dist/fonts/HelvNeue75_W1G.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link href="https://datascience.orangecodingacademy.com/assets/boosted/dist/css/orangeHelvetica.min.css" rel="stylesheet">
+        <link href="https://datascience.orangecodingacademy.com/assets/boosted/dist/css/orangeIcons.min.css" rel="stylesheet">
+        <link href="https://datascience.orangecodingacademy.com/assets/boosted/dist/css/boosted.min.css" rel="stylesheet">
+        <link href="https://datascience.orangecodingacademy.com/assets/css/client.css" rel="stylesheet">
+        <link rel="preconnect" href="https://code.jquery.com" crossorigin="anonymous">
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://datascience.orangecodingacademy.com/assets/js/countries.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/country-select-js/2.0.2/js/countrySelect.min.js" integrity="sha512-agmFjG7H3K/n7ca70w6lzdO0MxUFWYcaDrw5WpwBMjhXxfrchssrKyZrJOSEN7q4vIeTcHUX5A7mM6zjbE2ZAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          
+        <link href="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/css/boosted.min.css" rel="stylesheet" integrity="sha384-laZ3JUZ5Ln2YqhfBvadDpNyBo7w5qmWaRnnXuRwNhJeTEFuSdGbzl4ZGHAEnTozR" crossorigin="anonymous">
+    <style>
+        @media screen and (max-width: 1200px){
+            .ll{ display: none; visibility: hidden;}
+        }
+        #cd{display: block;height: 100vh; }
+        form{width: 50%; height: 80%; }
+
+    </style>
+    
+            </head>
+
+            <body>
+                <div class="d-md-flex flex-md-equal h-100 ">
+                    <div class="col-lg-4 p-0 auth-slider my-div">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img class="d-block h-100 my-div" src="https://datascience.orangecodingacademy.com/assets/img/1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img id="" class="d-block h-100 my-div" src="https://datascience.orangecodingacademy.com/assets/img/2.jpg" alt="Second slide">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 px-0">
+                        <header role="banner">
+                            <nav role="navigation" id="mainNav" class="navbar navbar-light bg-white navbar-expand-md pt-2 border-bottom pb-0 mb-2 pt-1" aria-label="Main navigation">
+                            <div class="container-fluid">
+                                <a href="/">
+                                    <img id="imgw" src="https://datascience.orangecodingacademy.com/assets/boosted/dist/img/white.png" class="d-inline-block align-bottom mr-3" alt="Back to homepage" title="Back to homepage" height="70" loading="lazy">
+                                </a>
+                                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#orange-navbar-collapse" aria-controls="orange-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="navbar-collapse justify-content-end collapse" id="orange-navbar-collapse">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a class="nav-link" href="https://datascience.orangecodingacademy.com/help" target="_blank">Help </a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/terms" target="_blank"> Terms &amp; Conditions</a></li>
+                                </ul>
+                                <ul class="navbar-nav">
+                                    
+                                                    </ul>
+                                                   
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <form  style="margin-left: 25%;" class="needs-validation">
+                <h1>Create an account</h1>
+               
+                  <div class="mb-3">
+                    <label for="validationCustom01" class="form-label is-required">Email address <span class="visually-hidden"> (required)</span></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <div id="emailHelp" class="form-text">eg: username@domain.com
+                        <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="validationCustom02" class="form-label is-required">Mobile<span class="visually-hidden"> (required)</span></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">eg: 077********</div>
+                    <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label is-required">Create Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <div id="emailHelp" class="form-text">The Password should be between 6-18 characters.</div>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input is-required" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I agree to the terms & conditions Orange. *</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input is-required" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Receive Coding Academy Newsletter.</label>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-primary btn-lg btn-block" type="button">Sine up</button>
+                    <button class="btn btn-secondary btn-lg btn-block" type="button">Already have an account?login</button>
+                  </div>
+              </form>
+                
+              
+            
+            
+            </a></body>
+   
+</html>
